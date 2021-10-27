@@ -6,6 +6,8 @@ DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 # train size
 VAL_SIZE = 0.2
 
+NUM_CLASSES = 2
+
 # embedding sizes
 EMB_DIMS = 5
 
